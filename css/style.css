@@ -57,7 +57,7 @@ p { margin-bottom: 0.9em; }
 /* ===== LAYOUT ===== */
 .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
 section { padding: 4rem 0; }
-section:nth-child(even) { background: var(--bg-section); }
+section:nth-child(even):not(.hero) { background: var(--bg-section); }
 
 /* ===== NAVBAR ===== */
 .navbar {
